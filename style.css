@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Margarine&family=Noto+Serif:wght@400;700&family=Trade+Winds&display=swap');
 
 *{
     margin: 0;
@@ -36,7 +36,7 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 .about .about-content, 
 .services .serv-content,
@@ -54,7 +54,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Margarine', cursive;
 }
 section .title::before{
     content: "";
@@ -83,7 +83,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -165,13 +165,16 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/ngwa-coverpage-5.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+.home .text-2{
+    font-family: 'Courgette', cursive;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
@@ -501,7 +504,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto serif', serif;
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
